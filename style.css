@@ -105,6 +105,15 @@ cursed {
     flex-direction: row;
 }
 
+.Video {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
 .Bonustext div {
     width: 100px;
     height: 100px;
@@ -146,4 +155,19 @@ cursed {
     width: 150px;
     height: 40px;
     margin: 30px;
+}
+
+.Coolstuff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: space-evenly;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
+.Coolstuff div {
+    width: 150px;
+    height: 50px;
+    margin: 10px;
 }
